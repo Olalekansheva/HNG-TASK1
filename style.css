@@ -1,0 +1,185 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:  #D9EDBF;
+}
+
+.navbar{
+    background-color: rgb(197, 238, 135);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    
+}
+
+.nav-brand, a {
+    margin-left: 50px;
+    text-decoration: none;
+    color: rgb(10, 139, 139);
+    font-weight: bold;
+    
+}
+
+.nav-ul, nav ul li{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color:rgb(10, 139, 139);
+    list-style-type: none;  
+}
+
+.nav-btn{
+    color: #fff;
+   background-color: rgb(10, 139, 139);
+   padding: 5px 15px;
+   border-radius: 25px;
+   border: 2px solid whitesmoke;
+   cursor: pointer;
+    
+}
+
+.nav-btn:hover {
+    background: transparent;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.her0 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 5rem;
+}
+
+
+.text-div{
+    text-align: center;
+}
+
+.text-p1{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.text-p1 span{
+    color: teal;
+}
+
+.text-p3{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.title{
+    color: teal;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.title span{
+    color: rgb(228, 94, 117);
+}
+
+.title-2{
+    color: teal;
+}
+
+.title-2 span{
+    color: rgb(228, 94, 117);
+}
+
+.text-p2{
+    font-weight: bold;
+    margin-top: 1rem;
+    color: rgb(228, 94, 117);
+}
+
+
+
+.hero img {
+    border-radius: 50%;
+}
+
+.hero h1 {
+    margin: 10px 0 0;
+}
+
+.right-side{
+    font-weight: bold;
+    color: teal;
+}
+
+.info {
+    text-align: center;
+    margin-bottom: 20px;
+    color: teal;
+}
+
+.goals {
+    margin-bottom: 20px;
+}
+
+.goals h2 {
+    text-align: center;
+    color: rgb(228, 94, 117);
+}
+
+.goals ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.goals li {
+    background-color: rgb(197, 238, 135);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: teal;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(228, 94, 117);
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .goals li {
+        margin: 5px 0;
+    }
+
+    footer a {
+        display: block;
+        margin: 5px 0;
+    }
+}
